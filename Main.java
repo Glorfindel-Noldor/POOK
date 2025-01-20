@@ -46,7 +46,7 @@ class Main extends JPanel implements ActionListener, KeyListener {
     public void actionPerformed(ActionEvent e) {
         // Update bullet movement if it is fired
         if (bulletFired) {
-            bulletY -= 5; // Move bullet upward
+            bulletY -= 30; // Move bullet upward
 
             // Reset bullet if it goes off-screen
             if (bulletY + bulletHeight < 0) {
